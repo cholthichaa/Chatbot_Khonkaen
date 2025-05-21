@@ -1,0 +1,17 @@
+version: '3.2'
+
+services:
+  com_pg:
+    image: postgres:14.3
+    container_name: chatbot_khonkaen
+    restart: unless-stopped
+    environment:
+        POSTGRES_USER: chatbot_user
+        POSTGRES_PASSWORD: chatbot_password
+        POSTGRES_DB: chatbot_pg
+        TZ: "UTC"
+        PGTZ: "UTC"
+    ports:
+      - 5432:5432
+    networks:
+      - default
