@@ -47,5 +47,5 @@
 6. รัน Ngrok เพิ่ม ไปเชื่อต่อกับไดอะล็อกโฟลว์
 7. ทดสอบแชทบอทผ่าน LINE Application
 8. หน้า Admin เข้าโฟเดอร์ front-end รัน npm run dev
-
+(สามารถดูเพิ่มเติมที่ User Manual )
 
