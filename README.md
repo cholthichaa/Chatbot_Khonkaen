@@ -40,12 +40,13 @@
 
 #### การติดตั้งและใช้งานเบื้องต้น
 1. ติดตั้ง Node.js และ PostgreSQL + Docker
-2. ตั้งค่าฐานข้อมูล PostgreSQL ตาม schema ที่จัดเตรียมไว้
-3. เปิด Docker เพิ่มเชื่อมต่อฐานข้อมูล PostgreSQL
-4. รัน Backend ด้วยคำสั่ง `node app.js` หรือ `npm start`  
-5. เชื่อมต่อ Webhook URL กับ Dialogflow และ LINE Messaging API
-6. รัน Ngrok เพิ่ม ไปเชื่อต่อกับไดอะล็อกโฟลว์
-7. ทดสอบแชทบอทผ่าน LINE Application
-8. หน้า Admin เข้าโฟเดอร์ front-end รัน npm run dev
+2. ดาวน์โหลดโปรเจ็คจากนั้นอัพโหลดโปรเจ็คไดอะล็อกโฟลว์
+3. ตั้งค่าฐานข้อมูล PostgreSQL ตาม schema ที่จัดเตรียมไว้
+4. เปิด Docker เพิ่มเชื่อมต่อฐานข้อมูล PostgreSQL
+5. รัน Backend ด้วยคำสั่ง `node app.js` หรือ `npm start`  
+6. เชื่อมต่อ Webhook URL กับ Dialogflow และ LINE Messaging API
+7. รัน Ngrok เพิ่ม ไปเชื่อต่อกับไดอะล็อกโฟลว์
+8. ทดสอบแชทบอทผ่าน LINE Application
+9. หน้า Admin เข้าโฟเดอร์ front-end รัน npm run dev
 (สามารถดูเพิ่มเติมที่ User Manual )
 
